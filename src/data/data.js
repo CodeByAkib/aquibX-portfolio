@@ -6,7 +6,7 @@
 
 import tcsCert from "../assets/certs/tcs-ion.jpg";
 import aiEssentialsCert from "../assets/certs/google-ai-essentials.jpg";
-import IICTcert from "../assets/certs/IICT.jpeg";
+import iictcert from "../assets/certs/iict.jpeg";
 
 export const profile = {
   name: "Md Akib Khan",
@@ -91,11 +91,11 @@ export const projects = [
 
 export const certifications = [
   {
-    id: "IICT",
+    id: "iict",
     name: "Foundation Course on AI Readiness",
     organization: " IICT & AI Skills House (Google & YouTube Partnership)",
     date: "Aug 2026",
-    image: IICTcert,
+    image: iictcert,
   },
   {
     id: "tcs-ion",
