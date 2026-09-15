@@ -4,12 +4,9 @@
 // adding a new object to the relevant array below.
 // ─────────────────────────────────────────────────────────────
 
-import webDevCert from "../assets/certs/web-dev-fundamentals.jpg";
 import tcsCert from "../assets/certs/tcs-ion.jpg";
-import promptingCert from "../assets/certs/google-prompting.jpg";
-import oracleCert from "../assets/certs/oracle-ai.jpg";
-import genAiCert from "../assets/certs/gen-ai-academy.png";
 import aiEssentialsCert from "../assets/certs/google-ai-essentials.jpg";
+import IICTcert from "../assets/certs/IICT.jpeg";
 
 export const profile = {
   name: "Md Akib Khan",
@@ -60,24 +57,25 @@ export const skills = {
 
 export const projects = [
   {
-    id: "image-editor",
-    title: "Image Editor",
+    id: "AI Chatbot",
+    title: "AI Chatbot",
     description:
-      "Modern browser-based Image Editor supporting crop, rotate, flip, filters, brightness adjustment and download.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/CodeByAkib/Image-Editor",
-    demo: "https://codebyakib.github.io/Image-Editor/",
-    icon: "image",
+      "Developed an AI-powered chatbot using React.js and the Google Gemini API to generate realtime responses.",
+    tech: ["React.js", "JavaScript", "Gemini API", "Tailwind CSS"],
+    github: "https://github.com/CodeByAkib/AI-Chatbot",
+    demo: "https://ai-chatbot-three-blue.vercel.app/",
+    icon: "chatbot",
   },
   {
-    id: "text-to-speech",
-    title: "Text To Speech Converter",
+    id: "Personal Portfolio",
+    title: "Personal Portfolio",
     description:
-      "Converts written text into speech using the Web Speech API with multiple voice selections.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/CodeByAkib/Text-to-Speech-Converter",
-    demo: "https://codebyakib.github.io/Text-to-Speech-Converter/",
-    icon: "mic",
+      "Built a fully responsive personal portfolio using React.js, Tailwind CSS, and Vite, featuring a project showcase, technical skills, certifications, resume download, and a contact section",
+
+    tech: ["React.js", "Tailwind CSS", "Vite"],
+    github: "https://github.com/CodeByAkib/aquibX-portfolio",
+    demo: "https://aquibx-portfolio.vercel.app/",
+    icon: "portfolio",
   },
   {
     id: "tic-tac-toe",
@@ -93,11 +91,11 @@ export const projects = [
 
 export const certifications = [
   {
-    id: "web-dev-fundamentals",
-    name: "Web Development Fundamentals",
-    organization: "IBM SkillsBuild",
-    date: "Feb 2026",
-    image: webDevCert,
+    id: "IICT",
+    name: "Foundation Course on AI Readiness",
+    organization: " IICT & AI Skills House (Google & YouTube Partnership)",
+    date: "Aug 2026",
+    image: IICTcert,
   },
   {
     id: "tcs-ion",
@@ -106,27 +104,7 @@ export const certifications = [
     date: "Mar 2026",
     image: tcsCert,
   },
-  {
-    id: "google-prompting",
-    name: "Google Prompting Essentials",
-    organization: "Google (via Coursera)",
-    date: "Jul 2026",
-    image: promptingCert,
-  },
-  {
-    id: "oracle-ai",
-    name: "Oracle Certified Foundations Associate — AI",
-    organization: "Oracle University",
-    date: "Jan 2026",
-    image: oracleCert,
-  },
-  {
-    id: "gen-ai-academy",
-    name: "Gen AI Academy",
-    organization: "Google Cloud × Hack2Skill",
-    date: "Aug 2025",
-    image: genAiCert,
-  },
+
   {
     id: "google-ai-essentials",
     name: "Google AI Essentials",

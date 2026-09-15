@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import { FiGithub, FiExternalLink, FiImage, FiMic, FiGrid } from "react-icons/fi";
+import { FiGithub, FiExternalLink, FiImage, FiMic, FiGrid,FiCpu, FiUser } from "react-icons/fi";
 import { projects } from "../data/data";
 
-const iconMap = { image: FiImage, mic: FiMic, grid: FiGrid };
+const iconMap = { image: FiImage, mic: FiMic, grid: FiGrid, chatbot: FiCpu, portfolio: FiUser};
 
 export default function Projects() {
   return (
