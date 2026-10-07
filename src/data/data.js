@@ -39,7 +39,7 @@ export const highlights = [
 ];
 
 export const skills = {
-  "Programming Languages": ["JavaScript", "Python", "Java", "C"],
+  "Programming Languages": ["JavaScript", "Python", "C/C++"],
   Frontend: ["HTML5", "CSS3", "Tailwind CSS", "React.js", "Responsive Design"],
   Backend: ["Node.js", "Express.js"],
   Database: ["MongoDB", "MySQL"],
@@ -56,6 +56,16 @@ export const skills = {
 };
 
 export const projects = [
+  {
+  id: "SocialFlow AI",
+  title: "SocialFlow AI",
+  description:
+    "Developed a AI- Powered social media automation platform that enables users to schedule posts and automatically publish content across social media platforms.",
+  tech: ["React.js", "TypeScript", "Gemini API", "Tailwind CSS"],
+  github: "https://github.com/CodeByAkib/socialflow-ai",
+  demo: "https://socialflow-ai-vert.vercel.app/",
+  icon: "social",
+},
   {
     id: "AI Chatbot",
     title: "AI Chatbot",
@@ -76,16 +86,6 @@ export const projects = [
     github: "https://github.com/CodeByAkib/aquibX-portfolio",
     demo: "https://aquibx-portfolio.vercel.app/",
     icon: "portfolio",
-  },
-  {
-    id: "tic-tac-toe",
-    title: "Tic Tac Toe Game",
-    description:
-      "Interactive Tic Tac Toe game featuring winner detection, draw logic and restart functionality.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/CodeByAkib/Tic-Tac-Toe-Game",
-    demo: "https://codebyakib.github.io/Tic-Tac-Toe-Game/",
-    icon: "grid",
   },
 ];
 

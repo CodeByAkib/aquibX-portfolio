@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { FiCheckCircle } from "react-icons/fi";
 import { profile, highlights } from "../data/data";
-import profileImg from "../assets/profile.jpg";
+import profileImg from "../assets/profile-about.jpg";
+
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -35,7 +36,7 @@ export default function About() {
             transition={{ duration: 0.7 }}
             className="mx-auto"
           >
-            <div className="relative h-60 w-60 sm:h-72 sm:w-72">
+            <div className="relative h-72 w-72 sm:h-80 sm:w-80 lg:h-96 lg:w-96">
               <div className="absolute inset-0 rounded-full bg-gradient-main p-[3px] shadow-glow animate-float-slow">
                 <div
                   className="h-full w-full overflow-hidden rounded-full bg-base-900"
