@@ -1,14 +1,16 @@
 import { motion } from "framer-motion";
 import {
-  FiGithub,
-  FiExternalLink,
-  FiImage,
-  FiMic,
-  FiGrid,
-  FiCpu,
-  FiUser,
-  FiShare2
+FiGithub,
+FiExternalLink,
+FiImage,
+FiMic,
+FiGrid,
+FiCpu,
+FiUser,
+FiShare2,
+FiBriefcase
 } from "react-icons/fi";
+
 import { projects } from "../data/data";
 
 const iconMap = {
@@ -18,6 +20,7 @@ const iconMap = {
   chatbot: FiCpu,
   portfolio: FiUser,
   social: FiShare2,
+  career: FiBriefcase,
 };
 
 export default function Projects() {

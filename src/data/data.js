@@ -57,6 +57,16 @@ export const skills = {
 
 export const projects = [
   {
+  id: "AI Career Copilot",
+  title: "AI Career Copilot",
+  description:
+    "Developed an AI- Powered Career Assistance  full stack web application that analyzes resumes against target job roles and generates personalized career insights",
+  tech: ["Python", "Flask", "MongoDB", "Gemini API"],
+  github: "https://github.com/CodeByAkib/career-copilot",
+  demo: "https://career-copilot-rrk1.onrender.com/login",
+  icon: "career",
+},
+  {
   id: "SocialFlow AI",
   title: "SocialFlow AI",
   description:
@@ -75,17 +85,6 @@ export const projects = [
     github: "https://github.com/CodeByAkib/AI-Chatbot",
     demo: "https://ai-chatbot-three-blue.vercel.app/",
     icon: "chatbot",
-  },
-  {
-    id: "Personal Portfolio",
-    title: "Personal Portfolio",
-    description:
-      "Built a fully responsive personal portfolio using React.js, Tailwind CSS, and Vite, featuring a project showcase, technical skills, certifications, resume download, and a contact section",
-
-    tech: ["React.js", "Tailwind CSS", "Vite"],
-    github: "https://github.com/CodeByAkib/aquibX-portfolio",
-    demo: "https://aquibx-portfolio.vercel.app/",
-    icon: "portfolio",
   },
 ];
 
