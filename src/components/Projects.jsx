@@ -8,7 +8,8 @@ FiGrid,
 FiCpu,
 FiUser,
 FiShare2,
-FiBriefcase
+FiBriefcase,
+FiMessageCircle,
 } from "react-icons/fi";
 
 import { projects } from "../data/data";
@@ -21,6 +22,7 @@ const iconMap = {
   portfolio: FiUser,
   social: FiShare2,
   career: FiBriefcase,
+  nexora: FiMessageCircle,
 };
 
 export default function Projects() {

@@ -57,6 +57,16 @@ export const skills = {
 
 export const projects = [
   {
+  id: "Real-Time Chat and Video Calling Application",
+  title: "Nexora- Video calling and real time Chat Application",
+  description:
+    "Developed a full-stack real-time communication platform with user authentication, personalized profiles, friend requests, and interest-based user discovery.",
+  tech: ["React.js", "Node.js", "MongoDB", "Express.js", "REST APIs"],
+  github: "https://github.com/CodeByAkib/Nexora-video-calling-and-real-time-chat-application",
+  demo: "https://nexora-messenger.vercel.app/",
+  icon: "nexora",
+},
+  {
   id: "AI Career Copilot",
   title: "AI Career Copilot",
   description:
@@ -76,16 +86,6 @@ export const projects = [
   demo: "https://socialflow-ai-vert.vercel.app/",
   icon: "social",
 },
-  {
-    id: "AI Chatbot",
-    title: "AI Chatbot",
-    description:
-      "Developed an AI-powered chatbot using React.js and the Google Gemini API to generate realtime responses.",
-    tech: ["React.js", "JavaScript", "Gemini API", "Tailwind CSS"],
-    github: "https://github.com/CodeByAkib/AI-Chatbot",
-    demo: "https://ai-chatbot-three-blue.vercel.app/",
-    icon: "chatbot",
-  },
 ];
 
 export const certifications = [
