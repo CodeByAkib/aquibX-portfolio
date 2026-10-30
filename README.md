@@ -25,24 +25,11 @@ npm run preview     # preview the production build locally
 
 Your EmailJS credentials are already populated in `.env` (create it from `.env.example` if it's missing):
 
-```
-VITE_EMAILJS_SERVICE_ID=service_b6j19uo
-VITE_EMAILJS_TEMPLATE_ID=template_zg2l7gp
-VITE_EMAILJS_PUBLIC_KEY=ex0i9OqTsPpoJCnPy
-```
-
 **Important:** in your EmailJS template, make sure the template body/subject use these exact merge tags: `{{from_name}}`, `{{from_email}}`, `{{subject}}`, `{{message}}`. Also confirm the template's "To email" field is set to your Gmail address so submissions land in your inbox.
 
 `.env` is already excluded via `.gitignore` — never commit it to a public repo. If you ever need to rotate the EmailJS public key, do it from the EmailJS dashboard and just update `.env`.
 
-## 🗂 Updating content
 
-Everything you'll want to change lives in **`src/data/data.js`**:
-- `projects` — add a new object with `title`, `description`, `tech`, `github`, `demo`, `icon` (`image` | `mic` | `grid`)
-- `certifications` — drop a new image into `src/assets/certs/`, import it at the top of `data.js`, and add an entry
-- `skills`, `education`, `socials`, `navLinks` — same pattern
-
-## 🖼 Assets
 
 - `src/assets/profile.jpg` — your profile photo (used in Hero + About, cropped via `object-fit: cover` inside a fixed circular frame)
 - `public/resume.pdf` — powers the "Download Resume" button (served at `/resume.pdf`)
